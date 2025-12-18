@@ -1,4 +1,21 @@
-a = float(input())
-b = float(input())
+a = float(input("First number: "))
+operation = input("Operation (+, -, *, /): ")
+b = float(input("Second number: "))
 
-print(a / b if b != 0 else "Division by zero!")
+if operation == "+":
+    print(a + b)
+
+elif operation == "-":
+    print(a - b)
+
+elif operation == "*":
+    print(a * b)
+
+elif operation == "/":
+    if b != 0:
+        print(a / b)
+    else:
+        print("Division by zero!")
+
+else:
+    print("Invalid operation")
