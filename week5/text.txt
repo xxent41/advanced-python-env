@@ -1,0 +1,5 @@
+Hello, world!
+This is a sample text file.
+Hello again — world; hello!
+Numbers: 10, 10, and 20.
+Don't split contractions: don't, DON'T.
