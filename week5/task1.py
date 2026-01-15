@@ -1,10 +1,14 @@
 from collections import Counter
 import re
 
+input_file = "text.txt"
+output_file = "analysis.txt"
+
+
 def tokenize(text):
     return re.findall(r"[A-Za-z0-9']+", text.lower())
 
-with open("text.txt", "r", encoding="utf-8") as f:
+with open(input_file, "r", encoding="utf-8") as f:
     lines = f.readlines()
 
 total_lines = len(lines)
