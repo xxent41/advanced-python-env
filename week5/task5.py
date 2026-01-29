@@ -10,12 +10,15 @@ class BankAccount:
     def withdraw(self, amount):
         if 0 < amount <= self.__balance:
             self.__balance -= amount
+        else:
+            print("Deposit amount must be positive.")
+            
 
     def get_balance(self):
         return self.__balance
 
 account = BankAccount("Nurkhan", 1000)
 account.deposit(500)
-account.withdraw(300)
+account.withdraw(1600)
 
 print("Balance:", account.get_balance())

@@ -1,0 +1,20 @@
+Total lines: 5
+Total words: 22
+
+Word frequencies:
+hello: 3
+world: 2
+this: 1
+is: 1
+a: 1
+sample: 1
+text: 1
+file: 1
+again: 1
+numbers: 1
+10: 2
+and: 1
+20: 1
+don't: 3
+split: 1
+contractions: 1
